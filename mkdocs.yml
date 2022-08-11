@@ -1,5 +1,6 @@
 site_name: My Docs
 repo_url: https://github.com/delthia/docs
+repo_name: delthia/docs
 
 theme:
   name: material
@@ -8,6 +9,8 @@ theme:
     accent: yellow
   features:
     - content.code.annotate
+  icon:
+    repo: fontawesome/brands/git-alt
 
 markdown_extensions:
   - admonition
