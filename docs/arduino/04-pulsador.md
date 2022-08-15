@@ -9,6 +9,20 @@ C & D --> E([Fin])
 E -.-> A
 ```
 
+```arduino
+if (condition == a || condition2 == b && condition3 != c) {
+    digitalWrite(led, HiGH);
+}
+else if (condition4 = a + b) {
+    digitalWrite(led, HIGH);
+    delay(250);
+    digitalWrite(led, LOW);
+}
+else {
+    digitalWrite(led, LOW);
+}
+```
+
 ```arduino title="pulsador.ino" linenums="1"
 const int led = 13;
 const int btn = 12;
