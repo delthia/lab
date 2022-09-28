@@ -1,9 +1,8 @@
 # Albergando servicios con docker
 
-Docker es una utilidad libre de contanerización.
+Docker es una utilidad libre para gestionar aplicaciones en contenedores. Resulta muy útil por su fácil administración y actualización.
 
-Resulta muy últil para albergar aplicaciones en un servidor, por su fácil actualización y administración.
-
+Existe una WebUI para gestionar docker llamada [portainer](https://portainer.io). Para instalar portainer sigue [esta guía](portainer/)
 Lista de servicios:
 - Coder: Editor código en la web. Muy práctico para trabajar en cualquier ordenador que tenga un navegador web.
 
