@@ -1,3 +1,6 @@
+---
+title: Gitea
+---
 # Instalación de gitea
 
 ![Gitea homepage](screenshots/Screenshot%202022-09-28%20at%2022-05-04%20Gitea%20Git%20with%20a%20cup%20of%20tea.png)

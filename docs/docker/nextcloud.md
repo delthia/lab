@@ -1,3 +1,6 @@
+---
+title: Nextcloud
+---
 # Instalación de nextcloud
 
 ![Nextcloud homepage](screenshots/Screenshot%202022-09-28%20at%2022-12-34%20Dashboard%20-%20Nextcloud.png)

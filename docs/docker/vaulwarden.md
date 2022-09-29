@@ -1,3 +1,6 @@
+---
+title: Bitwarden
+---
 # Instalación de bitwarden
 
 Vaultwarden es una imagen de servidor alternativa compatible con la de bitwarden.

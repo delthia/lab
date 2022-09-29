@@ -1,3 +1,6 @@
+---
+title: Portainer
+---
 # Instalación de portainer
 
 En un servidor con docker instalado, portainer se puede instalar con el siguiente comando
