@@ -1,16 +1,43 @@
-site_name: My Docs
+site_name: lab.delthia.com
 repo_url: https://github.com/delthia/docs
 repo_name: delthia/docs
+
+copyright: CC-BY 2023
 
 theme:
   name: material
   palette:
-    primary: yellow
-    accent: yellow
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Cambiar al modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch-outline
+        name: Cambiar al modo claro
   features:
     - content.code.annotate
+    - navigation.footer
   icon:
-    repo: fontawesome/brands/git-alt
+    # repo: fontawesome/brands/git-alt
+    repo: fontawesome/brands/github
+    logo: material/flask
+
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/delthia
+    - icon: material/email
+      link: mailto:iago@delthia.com
+    - icon: material/git
+      link: https://codeberg.org/iago
+
 
 markdown_extensions:
   - admonition
